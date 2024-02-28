@@ -3,6 +3,7 @@
     class Picture
     {
         private Square wall;
+
         public Picture()
         {
             DrawImage();
