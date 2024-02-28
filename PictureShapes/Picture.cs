@@ -2,14 +2,14 @@
 {
     class Picture
     {
-
+        private Square wall;
         public Picture()
         {
             DrawImage();
         }
         public void DrawImage()
         {
-            Square wall = new Square();
+            wall = new Square();
             wall.MakeVisible();
             wall.ChangeColor("red");
             wall.ChangeSize(200);
